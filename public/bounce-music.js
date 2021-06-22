@@ -53,7 +53,7 @@ let synthJSON = {
 };
 
 instrument.set(synthJSON);
-instrument.volume.value = -25
+instrument.volume.value = -20
 
 
 for (let i = 0; i < 30; i++){
