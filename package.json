@@ -6,7 +6,7 @@
         "socket.io": "^4.1.2"
     },
     "author": "remi-foss",
-    "scripts"{
+    "scripts":{
         "start": "node app.js"
     }
 }
