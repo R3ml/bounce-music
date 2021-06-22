@@ -26,7 +26,7 @@ io.on("connection", (socket) => {
 });
 
 
-server.listen(8080, (error)=> {
+server.listen(process.env.PORT || 8080, (error)=> {
     if (error) {
         console.log(error);
     }
